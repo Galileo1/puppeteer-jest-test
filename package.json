@@ -1,0 +1,17 @@
+{
+  "name": "puppeteer-jest-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/puppet/custom-runner/runner.js --region=UAT --mock=false"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "24.8.0",
+    "jest-junit": "6.4.0",
+    "puppet": "file:../puppet",
+    "puppeteer": "1.17.0"
+  }
+}

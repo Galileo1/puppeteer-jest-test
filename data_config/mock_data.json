@@ -1,0 +1,7 @@
+{
+    "customer" : {
+        "username": "user01",
+        "password": "userpass01",
+        "text" : "puppeteer+cluster+mock"
+    }
+}
